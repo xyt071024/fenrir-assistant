@@ -1,0 +1,19 @@
+======================================
+  芬璃尔小助手博客 - 部署到 Vercel
+======================================
+
+要让别人在网上访问你的博客，部署到 Vercel 就行：
+
+方法一：GitHub + Vercel（推荐）
+1. 把 D:\芬璃尔小助手\博客 文件夹推送到 GitHub
+2. 打开 https://vercel.com/new
+3. 导入那个仓库 → 点 Create
+4. 完事，自动给你一个网址，比如: https://xxx.vercel.app
+
+方法二：Vercel CLI
+   npm install -g vercel
+   cd D:\芬璃尔小助手\博客
+   vercel login
+   vercel --prod
+
+======================================
